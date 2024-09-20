@@ -100,21 +100,21 @@ let tripcost75 = (3 * trip3)
 
 
 //How long will the trip take by mph
-// console.log (`At 55 miles per hour, the trip will take ${gallonsNeeded55} hours`)
-// console.log (`At 60 miles per hour, the trip will take ${gallonsNeeded60} hours`)
-// console.log (`At 75 miles per hour, the trip will take ${gallonsNeeded75} hours`)
+console.log (`At 55 miles per hour, the trip will take ${gallonsNeeded55} hours`)
+console.log (`At 60 miles per hour, the trip will take ${gallonsNeeded60} hours`)
+console.log (`At 75 miles per hour, the trip will take ${gallonsNeeded75} hours`)
 
 // //How many gallons of fuel will be needed
- //console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
- //console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
-//console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
+console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
+console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
+console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
 
 // Will the budget be enough to cover the entire expense?
 
 // Checks the cost of the trip against $175 and returns a Boolean value for the result.
 
-console.log (`At 75 miles per hour, the trip will cost less than the budget of $175. This is ${tripcost55 < 175} `)
-console.log (`At 75 miles per hour, the trip will cost less than the budget of $175. This is ${tripcost60 < 175} `)
+console.log (`At 55 miles per hour, the trip will cost less than the budget of $175. This is ${tripcost55 < 175} `)
+console.log (`At 60 miles per hour, the trip will cost less than the budget of $175. This is ${tripcost60 < 175} `)
 console.log (`At 75 miles per hour, the trip will cost less than the budget of $175. This is ${tripcost75 < 175} `)
 
 
