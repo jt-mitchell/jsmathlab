@@ -54,5 +54,60 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
+
+  //Part 1
+
+
+
   //Part 2
-const trip = 1500
+  //Constants
+
+const tripDist = 1500
+const budget = 175
+const gasPerGallon = 3
+
+//Variables
+
+// let cost55 = 90
+// let cost60 = 84
+// let costpergallon = 69
+
+let trip1 = (tripDist / 55)
+let trip2 = (tripDist / 60)
+let trip3 = (tripDist / 75)
+
+let mph55 = 30
+let mph60 = 28
+let mph75 = 23
+
+let gallonsNeeded55 = (tripDist / mph55)
+let gallonsNeeded60 = (tripDist / mph60)
+let gallonsNeeded75 = (tripDist / mph75)
+
+//console.log to test
+console.log(gallonsNeeded55)
+
+
+
+// print out trip1
+console.log(trip1)
+
+
+//How long will the trip take by mph
+// console.log (`At 55 miles per hour, the trip will take ${gallonsNeeded55} hours`)
+// console.log (`At 60 miles per hour, the trip will take ${gallonsNeeded60} hours`)
+// console.log (`At 75 miles per hour, the trip will take ${gallonsNeeded75} hours`)
+
+// //How many gallons of fuel will be needed
+// console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
+// console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
+// console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
+
+// Will the budget be enough to cover the entire expense?
+
+console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
+console.log (`At 65 miles per hour, the trip will need ${trip1} gallons fuel`)
+console.log (`At 75 miles per hour, the trip will need ${trip1} gallons fuel`)
+
+
+
