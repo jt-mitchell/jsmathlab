@@ -70,7 +70,7 @@ const gasPerGallon = 3
 
 // let cost55 = 90
 // let cost60 = 84
-// let costpergallon = 69
+// let cost75 = 69
 
 let trip1 = (tripDist / 55)
 let trip2 = (tripDist / 60)
@@ -84,13 +84,19 @@ let gallonsNeeded55 = (tripDist / mph55)
 let gallonsNeeded60 = (tripDist / mph60)
 let gallonsNeeded75 = (tripDist / mph75)
 
+//trip cost
+let tripcost55 = (3 * trip1)
+let tripcost60 = (3 * trip2)
+let tripcost75 = (3 * trip3)
+
 //console.log to test
-console.log(gallonsNeeded55)
+//console.log(gallonsNeeded55)
+//console.log (tripcost55)
 
 
 
 // print out trip1
-console.log(trip1)
+//console.log(trip1)
 
 
 //How long will the trip take by mph
@@ -99,15 +105,17 @@ console.log(trip1)
 // console.log (`At 75 miles per hour, the trip will take ${gallonsNeeded75} hours`)
 
 // //How many gallons of fuel will be needed
-// console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
-// console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
-// console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
+ //console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
+ //console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
+//console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
 
 // Will the budget be enough to cover the entire expense?
 
-console.log (`At 55 miles per hour, the trip will need ${trip1} gallons fuel`)
-console.log (`At 65 miles per hour, the trip will need ${trip1} gallons fuel`)
-console.log (`At 75 miles per hour, the trip will need ${trip1} gallons fuel`)
+// Checks the cost of the trip against $175 and returns a Boolean value for the result.
+
+console.log (`At 75 miles per hour, the trip will cost less than the budget of $175. This is ${tripcost55 < 175} `)
+console.log (`At 75 miles per hour, the trip will cost less than the budget of $175. This is ${tripcost60 < 175} `)
+console.log (`At 75 miles per hour, the trip will cost less than the budget of $175. This is ${tripcost75 < 175} `)
 
 
 
